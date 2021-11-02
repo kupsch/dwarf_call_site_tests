@@ -24,7 +24,7 @@ $$(MAINS$(1)): %: %.o
 	$$(GCC) $(2) -o $$@ $$+
 
 $$(OBJS$(1)): func.h
-main1$(1) main2$(1) main5$(1) main6$(1): func$(1).o func.h
+main1$(1) main2$(1) main5$(1) main6$(1): func$(1).o
 
 MAINS += $$(MAINS$(1))
 OBJS += $$(OBJS$(1))
