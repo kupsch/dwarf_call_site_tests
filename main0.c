@@ -5,6 +5,5 @@ double __attribute__((noinline)) f(double d)
 
 int main()
 {
-    f(1.0);
-    return 0;
+    return f(1.0);
 }
